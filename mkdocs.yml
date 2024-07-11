@@ -13,16 +13,16 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
-      accent: light blue
+      primary: amber
+      accent: amber
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: light blue
+      primary: amber
+      accent: amber
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
