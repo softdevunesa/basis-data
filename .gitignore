@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+
+# Node modules for themes or plugins
+node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db

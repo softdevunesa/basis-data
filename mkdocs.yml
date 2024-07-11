@@ -1,0 +1,98 @@
+# Page Information
+site_name: Database System - 2024/2025 (odd semester)
+site_url: https://iqlal.github.io/basisdata-unesa
+site_author: Muhammad Istiqlal
+repo_name: iqlal/basisdata-unesa
+repo_url: https://github.com/iqlal/basisdata-unesa
+
+# Page Configuration
+theme:
+  name: material
+  # custom_dir: overrides
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  favicon: 
+  logo: 
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.extend
+    - toc.follow
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    # - content.action.edit
+    # - content.action.view
+    - search.suggest
+    - search.highlight
+    - search.share
+
+plugins:
+  - search
+
+# Extension
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator:
+        !!python/name:material.extensions.emoji.to_svg # Page Navigation
+
+
+nav:
+  - Home: "index.md"
+
+  - Relational Database:
+      - Relational Database: "operating-system/README.md"
+
+  - Non-Relational Database:
+      - Non-Relational Database: "infrastructure-as-code/README.md"
+
+  - Database Administration:
+      - Database Administration: "containerization/README.md"
+
+  - Labs Assignment:
+      - Labs Assignment: "kubernetes/README.md"
