@@ -86,13 +86,13 @@ nav:
   - Home: "index.md"
 
   - Relational Database:
-      - Relational Database: "operating-system/README.md"
+      - Relational Database: "relational/README.md"
 
   - Non-Relational Database:
-      - Non-Relational Database: "infrastructure-as-code/README.md"
+      - Non-Relational Database: "non-relational/README.md"
 
   - Database Administration:
-      - Database Administration: "containerization/README.md"
+      - Database Administration: "administration/README.md"
 
   - Labs Assignment:
-      - Labs Assignment: "kubernetes/README.md"
+      - Labs Assignment: "labs/README.md"
