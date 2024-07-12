@@ -1,9 +1,9 @@
 # Page Information
 site_name: Database System - 2024/2025 (odd semester)
-site_url: https://iqlal.github.io/basisdata-unesa
+site_url: https://softdevunesa.github.io/basis-data/
 site_author: Muhammad Istiqlal
-repo_name: iqlal/basisdata-unesa
-repo_url: https://github.com/iqlal/basisdata-unesa
+repo_name: softdevunesa/basis-data
+repo_url: https://github.com/softdevunesa/basis-data
 
 # Page Configuration
 theme:
