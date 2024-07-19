@@ -13,24 +13,24 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: amber
-      accent: amber
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: amber
-      accent: amber
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
   font:
     text: IBM Plex Sans
     code: IBM Plex Mono
-  favicon: 
-  logo: 
+  favicon: assets/icon/database.png
+  logo: assets/icon/database.png
   features:
     - navigation.instant
     - navigation.instant.prefetch
@@ -80,10 +80,13 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator:
         !!python/name:material.extensions.emoji.to_svg # Page Navigation
-
+  - tables
 
 nav:
   - Home: "index.md"
+
+  - Introduction :
+      - Database Introduction : "introduction/README.md"
 
   - Relational Database:
       - Relational Database: "relational/README.md"
