@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Basis Data 2024/2025
 Halo teman-teman Informatika UNESA <br> 
 Selamat datang di website dari mata kuliah basis data untuk **Semester Ganjil 2024/2025**

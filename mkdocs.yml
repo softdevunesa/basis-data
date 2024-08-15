@@ -1,5 +1,5 @@
 # Page Information
-site_name: Database System - 2024/2025 (odd semester)
+site_name: Database System Course
 site_url: https://softdevunesa.github.io/basis-data/
 site_author: Muhammad Istiqlal
 repo_name: softdevunesa/basis-data
@@ -87,9 +87,14 @@ nav:
 
   - Introduction :
       - Database Introduction : "introduction/README.md"
+      - ER Diagram : "introduction/er-diagram.md"
+      - Data Model : "introduction/data-model.md"
+      - Normalization : "introduction/normalization.md"
 
   - Relational Database:
       - Relational Database: "relational/README.md"
+      - Relational Algebra: "relational/relational-algebra.md"
+      - SQL Query: "relational/sql-query.md"
 
   - Non-Relational Database:
       - Non-Relational Database: "non-relational/README.md"
@@ -99,3 +104,10 @@ nav:
 
   - Labs Assignment:
       - Labs Assignment: "labs/README.md"
+      - Labs 1 - Introduction: "labs/lab-1.md"
+      - Labs 2 - ERD & Data Model: "labs/lab-2.md"
+      - Labs 3 - Relational Database / SQL: "labs/lab-3.md"
+      - Labs 4 - NoSQL Database: "labs/lab-4.md"
+      - Labs 5 - Distributed Database: "labs/lab-5.md"
+      - Labs 6 - NewSQL Database: "labs/lab-6.md"
+      - Labs 7 - Database Administration: "labs/lab-7.md"
